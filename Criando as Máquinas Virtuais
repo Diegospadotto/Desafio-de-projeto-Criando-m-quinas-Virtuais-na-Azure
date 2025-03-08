@@ -1,0 +1,3 @@
+az vm create --resource-group Desafio-RG --name VM-Web --image Ubuntu2204 --vnet-name VNet-Desafio --subnet Subnet-Web --nsg NSG-Web --size Standard_B2s --admin-username azureuser --generate-ssh-keys
+
+az vm create --resource-group Desafio-RG --name VM-DB --image Ubuntu2204 --vnet-name VNet-Desafio --subnet Subnet-DB --nsg NSG-DB --size Standard_B2s --admin-username azureuser --generate-ssh-keys
