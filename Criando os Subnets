@@ -1,0 +1,2 @@
+az network vnet subnet create --vnet-name VNet-Desafio --resource-group Desafio-RG --name Subnet-Web --address-prefix 10.0.1.0/24
+az network vnet subnet create --vnet-name VNet-Desafio --resource-group Desafio-RG --name Subnet-DB --address-prefix 10.0.2.0/24
