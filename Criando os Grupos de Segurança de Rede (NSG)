@@ -1,0 +1,2 @@
+az network nsg create --resource-group Desafio-RG --name NSG-Web
+az network nsg create --resource-group Desafio-RG --name NSG-DB
