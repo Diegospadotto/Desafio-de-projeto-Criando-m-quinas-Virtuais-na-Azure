@@ -1,0 +1,18 @@
+•	Configurar um bastion host para acesso seguro às VMs sem expor portas SSH.
+
+•	Criar um Azure DevOps Pipeline para provisionamento contínuo das máquinas.
+
+•	Implementar Alta Disponibilidade, utilizando escala automática (AutoScale).
+
+ 
+
+Entrega
+
+•	Um repositório no GitHub contendo: 
+
+o	Código Terraform, Azure CLI ou PowerShell usado para criação da infraestrutura.
+
+o	Capturas de tela das VMs rodando e do Load Balancer funcionando.
+
+o	Explicação técnica das escolhas feitas no projeto.
+
