@@ -1,0 +1,2 @@
+az network public-ip create --resource-group Desafio-RG --name PublicIP-LB --allocation-method Static
+az network lb create --resource-group Desafio-RG --name LoadBalancer-Web --public-ip-address PublicIP-LB --frontend-ip-name Frontend-LB --backend-pool-name BackendPool-Web
