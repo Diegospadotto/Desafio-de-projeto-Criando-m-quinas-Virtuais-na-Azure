@@ -1,0 +1,1 @@
+az network vnet create --name VNet-Desafio --resource-group Desafio-RG --location eastus --address-prefix 10.0.0.0/16
