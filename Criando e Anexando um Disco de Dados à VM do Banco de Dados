@@ -1,0 +1,2 @@
+az disk create --resource-group Desafio-RG --name Disk-DB --size-gb 50 --sku Standard_LRS
+az vm disk attach --resource-group Desafio-RG --vm-name VM-DB --disk Disk-DB
